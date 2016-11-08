@@ -41,9 +41,8 @@ body, p{
 }
 
 .container{
-  background-color: yellow;
   margin: 0 auto;
-  width: 1000px;
+  width: 990px;
 }
 
 .container img{
@@ -115,4 +114,78 @@ p{
   text-align: center;
   padding: 20px;
   vertical-align: middle;
+}
+
+/*
+Collage
+*/
+.collage{
+    height: 787px;
+    position: relative;
+}
+
+.post-it{
+  position: absolute;
+}
+
+#video{
+  width: 674px;
+  height: 380px;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+
+#list{
+  width: 300px;
+  height: 495px;
+  background-color: gray;
+  top: 0;
+  right: 0;
+}
+
+#youtube{
+  width: 430px;
+  height: 99px;
+  background-color: black;
+  top: 396px;
+  left: 244px;
+}
+
+#quote{
+  width: 746px;
+  height: 276px;
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+#instagram{
+  width: 228px;
+  height: 228px;
+  background-color: yellow;
+  left: 0;
+  bottom: 162px;
+}
+
+#tumblr{
+  width: 228px;
+  height: 147px;
+  background-color: pink;
+  bottom: 0;
+  left:0;
+}
+
+.socialmedia{
+  display: inline-block;
+  padding: 5px;
+  float: right;
+  height: 60px;
+  padding: 20px;
+}
+
+.socialmedia img{
+  width: 20px;
+  height: 20px;
+  padding: 6px;
 }
